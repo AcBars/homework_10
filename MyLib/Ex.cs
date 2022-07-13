@@ -72,7 +72,7 @@ public class Ex
         {
             for(int j=0; j<array.GetLength(1); j++)
             {
-                if(result>array[i,j])
+                if(result[0]>array[i,j])
                 {
                     result[0]=array[i,j];
                     result[i]=i;
