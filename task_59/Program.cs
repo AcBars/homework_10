@@ -4,7 +4,6 @@
 
 using static System.Console;
 using MyLib;
-using System.Linq;
 
 Clear();
 WriteLine("Введите размер матрицы А через пробел: ");
