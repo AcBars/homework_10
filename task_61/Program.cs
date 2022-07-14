@@ -35,8 +35,9 @@ int [,] array(int size)
     return result;
 }
 
-Ex.PrintArray(Array);
-WriteLine("-----------");
+//Ex.PrintArray(Array);
+//WriteLine("-----------");
+Clear();
 
 for(int i=0; i<row; i++)
 {
@@ -44,8 +45,8 @@ for(int i=0; i<row; i++)
     Write(i+1);
     for(int j=-i; j<=i; j+=2)
     {
-        SetCursorPosition(WindowWidth/2-j, i+25);
-        Write(Array[row-j,i]);
+        SetCursorPosition(WindowWidth/2-j, i);
+        Write(Array[i,row+1-j]);
     }
     
 }
