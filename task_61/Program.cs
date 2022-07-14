@@ -45,7 +45,7 @@ for(int i=0; i<row; i++)
     for(int j=-i; j<=i; j+=2)
     {
         SetCursorPosition(WindowWidth/2-j, i+25);
-        Write(Array[j,i]);
+        Write(Array[row-j,i]);
     }
     
 }
